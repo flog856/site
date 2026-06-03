@@ -4,19 +4,43 @@
     <meta charset="UTF-8">
     <title>Florian Geitner</title>
     <style>
-        body, html {
+        html, body {
             height: 100%;
             margin: 0;
+        }
+        body {
             display: flex;
-            justify-content: center; /* Zentriert horizontal */
-            align-items: center;     /* Zentriert vertikal */
+            flex-direction: column;
             font-family: "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Marker Felt", monospace;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer {
+            padding: 10px;
+            text-align: center;
+            font-size: 0.8em;
         }
     </style>
 </head>
 <body>
 
-  Servus. :)
+  <main>
+    Servus. :)
+  </main>
+
+  <footer>
+    <a style="color: transparent; text-decoration: none; display: inline-block; width: 10px; height: 1em;">
+      &#8203;
+    </a>
+    2026 - Florian Geitner 
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color: transparent; text-decoration: none; display: inline-block; width: 10px; height: 1em;">
+      &#8203;
+    </a>
+  </footer>
 
 </body>
 </html>
